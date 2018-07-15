@@ -36,6 +36,7 @@ require 'swaggerui_local'
 YOUR_SWAGGER_JSON = {}
 
 class App < Roda
+  plugin :json
   route do |r|
     r.on 'swagger_json' do
       r.is do
@@ -56,6 +57,8 @@ class App < Roda
     end
   end
 end
+
+run App.freeze.app
 ```
 
 Run the server
