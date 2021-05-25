@@ -1,5 +1,7 @@
 # SwaggeruiLocal
 
+[![swaggerui_local](https://badgen.net/rubygems/v/swaggerui_local)](https://rubygems.org/gems/swaggerui_local)
+
 Do you want to use Swagger UI on your local machine without assets precompile?
 Use this gem!
 [Original URL to Swagger UI](https://petstore.swagger.io)
